@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_left">20dp</dimen>
+    <dimen name="padding_right">20dp</dimen>
+    <dimen name="margin_bottom">10dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="margin_top_register">40dp</dimen>
+    <dimen name="text_size_register">15sp</dimen>
+    <dimen name="padding">10dp</dimen>
+    <dimen name="title_color">16dp</dimen>
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="price_size">16sp</dimen>
+</resources>

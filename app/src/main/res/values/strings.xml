@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">"RestaurantManagement "</string>
+    <string name="user_login">User Login</string>
+    <string name="manager_login">Manager Login</string>
+    <string name="btn_link_to_register">Not a member? Sign up now</string>
+    <string name="login">Login</string>
+    <string name="pass">Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="btn_link_to_login">Already registred! Login Here.</string>
+    <string name="logout">Logout</string>
+    <string name="Cheese_Burger">Cheese Burger</string>
+    <string name="My40">40 tk</string>
+
+    <string-array name="name">
+        <item>"Cheese Sandwich"</item>
+        <item>"Cheese Burger"</item>
+        <item>"Vegetable Burger"</item>
+        <item>"Garlic Bread Cheese"</item>
+        <item>"Grilled Sandwich"</item>
+        <item>"Masala French Fries"</item>
+        <item>"Penny Pasta"</item>
+        <item>"Vegetable Sandwich"</item>
+    </string-array>
+    <string-array name="price">
+        <item>"100"</item>
+        <item>"120"</item>
+        <item>"80"</item>
+        <item>"150"</item>
+        <item>"150"</item>
+        <item>"120"</item>
+        <item>"180"</item>
+        <item>"50"</item>
+    </string-array>
+</resources>

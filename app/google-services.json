@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "417546782405",
+    "firebase_url": "https://restuarantmanagement.firebaseio.com",
+    "project_id": "restuarantmanagement",
+    "storage_bucket": "restuarantmanagement.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:417546782405:android:6c525ddc5268d40b",
+        "android_client_info": {
+          "package_name": "com.begginers.restaurantmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "417546782405-b501mphqh3853c10ioimk9b656n49auu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAELlECrU8yr1yHKorjpsS-HS1GZk6_vro"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

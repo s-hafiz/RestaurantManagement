@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_register"
+    android:padding="@dimen/padding"
+    android:gravity="center"
+    tools:context="com.begginers.restaurantmanagement.UserregActivity">
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/padding_left"
+        android:paddingEnd="@dimen/padding_right"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:background="@color/input_register_bg"
+            android:hint="@string/email"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/input_register_hint"
+            android:singleLine="true"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/input_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_marginBottom="@dimen/margin_bottom"
+            android:background="@color/input_register_bg"
+            android:hint="@string/password"
+            android:padding="@dimen/padding"
+            android:textColorHint="@color/input_register_hint"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:textColor="@color/input_register"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_marginTop="@dimen/margin_top"
+            android:background="#ea4c88"
+            android:text="@string/register"
+            android:textColor="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/btnLinkToLogin"
+            android:layout_marginTop="@dimen/margin_top_register"
+            android:background="@null"
+            android:text="@string/btn_link_to_login"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_register"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

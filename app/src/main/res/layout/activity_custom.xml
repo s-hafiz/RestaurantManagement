@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.begginers.restaurantmanagement.CustomOrder"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/img_view"
+                android:src="@mipmap/ic_launcher"
+                android:layout_width="100dp"
+                android:layout_height="90dp"
+                />
+            <LinearLayout
+                android:layout_toEndOf="@id/img_view"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/title_tv"
+                    android:text="Titile : "
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:textSize="@dimen/title_size"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/price_tv"
+                    android:text="Price : "
+                    android:textSize="@dimen/price_size"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textStyle="bold"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:id="@+id/default_unit_tv"
+                    android:text="No. Of Unit : 1"
+                    android:textSize="@dimen/price_size"
+                    android:textColor="@android:color/black"
+                    android:layout_marginTop="3dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <EditText
+            android:text="Add Menu Item Option"
+            android:enabled="false"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <CheckBox
+            android:id="@+id/extra_souce"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Add Extra Sauce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/extra_chicken"
+            android:text="Add Extra Chicken"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <CheckBox
+            android:id="@+id/mix_with_beef"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="Mix With Beef"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:text="Add Note To Menu Item (Optional)"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:cursorVisible="true"
+            android:gravity="start"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="@drawable/styleedittext"/>
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/btn_cus_unit"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:text="Custom Unit"
+                android:layout_marginEnd="5dp"
+                android:background="@android:color/holo_green_light"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/btn_add_to_cart"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_marginStart="5dp"
+                android:background="@android:color/holo_green_light"
+                android:text="Add To Cart"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
